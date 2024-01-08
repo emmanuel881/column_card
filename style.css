@@ -1,6 +1,10 @@
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: Lexend Deca;
 }
 body {
   background-color: hsl(0, 0%, 95%);
@@ -9,6 +13,9 @@ body {
   justify-content: center;
   height: 100vh;
   flex-direction: column;
+}
+h1 {
+  font-family: Big Shoulders Display;
 }
 .container {
   background-color: #fff;
